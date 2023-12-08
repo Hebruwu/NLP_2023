@@ -1,11 +1,13 @@
-# Step 1
+# Semeval 2020 Task 11
 
-We will use [SemEval 2020 Task 11](https://propaganda.qcri.org/semeval2020-task11/) in order to set up **Span Identification** (finding fallacies in articles) and **Technique Classification** (classifying type of fallacy)
+## Part2_SI
 
-# Step 2
+This folder encapsulates Part 2 of our presentation and is essentially our attempt at the SI task from Semeval 2020 Task 11. This folder contains already preprocessed data and the model files. In order to run the notebook, follow the following steps:
 
-Add on more datasets to more accurately classify techniques
+1) Open the notebook on Google Colab
+2) Make sure the runtime used is GPU (CPU can be used but the model trains faster on a GPU)
+3) Upload `train.txt`, `val.txt` and `vocabulary.pkl` to the runtime (which can be found in the folder).
+4) You are all set! Feel free to simply click `Run All`
 
-# Step 3
 
 
